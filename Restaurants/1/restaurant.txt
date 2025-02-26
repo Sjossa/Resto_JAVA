@@ -1,0 +1,27 @@
+ID Restaurant : 1
+Nom du restaurant : mer
+Adresse : &
+Menu : Non défini
+
+Liste des employés :
+ID : 1
+Nom: Etoile
+Prénom : Lucie
+Date d'embauche : 2024-02-07
+Salaire : 123
+
+Liste des plats :
+ID_plats : 2
+Nom : L'étoile
+Prix : 123.0 €
+Description : Une étoile à la vanille dans un cosmos de légumes
+Calories : 12000 kcal
+Catégorie : plat chaud
+Taille de la portion : GROSSE
+Date d'ajout : Tue Feb 07 00:00:00 CET 204
+Disponibilité : Disponible
+Ingrédients : a
+Type de cuisine : lente
+Temps de préparation : 34 minutes
+Prix spécial : 12.0 €
+URL de l'image : EEZE
