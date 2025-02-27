@@ -1,16 +1,16 @@
 package main;
 
-import addon.Fin;
-import interraction.RestaurantService;
+import addon.Exit;
+import interaction.RestaurantService;
 import java.util.Scanner;
-import menus.MenusVisiter;
+import menus.VisitMenus;
 
-public class Menu {
+public class MainMenu {
 
-    public static void afficherMenuPrincipal(Scanner scanner) {
-        int choix;
+    public static void displayMainMenu(Scanner scanner) {
+        int choice;
         do {
-            Fin.quitterProgramme(scanner);
+            Exit.exitProgram(scanner);
             System.out.println("\nMENU PRINCIPAL");
             System.out.println("1 - Visiter un restaurant");
             System.out.println("2 - Créer un nouveau restaurant");
@@ -21,15 +21,15 @@ public class Menu {
                 System.out.println("Entrée invalide. Veuillez entrer un chiffre entre 1 et 3.");
                 scanner.next();
             }
-            choix = scanner.nextInt();
+            choice = scanner.nextInt();
             scanner.nextLine();
 
-            switch (choix) {
-                case 1 -> MenusVisiter.afficherMenuVisite(scanner);
-                case 2 -> RestaurantService.creerRestaurant(scanner);
+            switch (choice) {
+                case 1 -> VisitMenus.displayVisitMenu(scanner);
+                case 2 -> RestaurantService.createRestaurant(scanner);
                 case 3 -> System.out.println("Retour au menu principal...");
                 default -> System.out.println("Choix invalide, veuillez réessayer.");
             }
-        } while (choix != 3);
+        } while (choice != 3);
     }
 }

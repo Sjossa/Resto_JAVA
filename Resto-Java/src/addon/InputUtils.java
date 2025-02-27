@@ -6,36 +6,36 @@ import java.util.Scanner;
 
 public class InputUtils {
 
-    public static String lireTexte(Scanner scanner, String message) {
+    public static String readText(Scanner scanner, String message) {
         System.out.print(message);
         return scanner.nextLine().trim();
     }
 
-    public static int lireEntier(Scanner scanner, String message) {
+    public static int readInteger(Scanner scanner, String message) {
         while (true) {
             try {
                 System.out.print(message);
-                int valeur = Integer.parseInt(scanner.nextLine().trim());
-                return valeur;
+                int value = Integer.parseInt(scanner.nextLine().trim());
+                return value;
             } catch (NumberFormatException e) {
                 System.out.println("Entrée invalide. Veuillez entrer un nombre entier.");
             }
         }
     }
 
-    public static double lireDouble(Scanner scanner, String message) {
+    public static double readDouble(Scanner scanner, String message) {
         while (true) {
             try {
                 System.out.print(message);
-                double valeur = Double.parseDouble(scanner.nextLine().trim());
-                return valeur;
+                double value = Double.parseDouble(scanner.nextLine().trim());
+                return value;
             } catch (NumberFormatException e) {
                 System.out.println("Entrée invalide. Veuillez entrer un nombre décimal.");
             }
         }
     }
 
-    public static LocalDate lireDate(Scanner scanner, String message) {
+    public static LocalDate readDate(Scanner scanner, String message) {
         while (true) {
             try {
                 System.out.print(message);

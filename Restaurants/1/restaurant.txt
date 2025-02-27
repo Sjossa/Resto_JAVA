@@ -1,27 +1,66 @@
 ID Restaurant : 1
-Nom du restaurant : mer
-Adresse : &
+Nom du restaurant : Omefa
+Adresse : A
 Menu : Non défini
 
-Liste des employés :
-ID : 1
-Nom: Etoile
-Prénom : Lucie
+--- Liste des employés ---
+Employé ID : 1
+nom : au
+Prénom : cassandre
 Date d'embauche : 2024-02-07
-Salaire : 123
+Salaire : 123 €
 
-Liste des plats :
-ID_plats : 2
-Nom : L'étoile
-Prix : 123.0 €
-Description : Une étoile à la vanille dans un cosmos de légumes
-Calories : 12000 kcal
-Catégorie : plat chaud
-Taille de la portion : GROSSE
-Date d'ajout : Tue Feb 07 00:00:00 CET 204
+Employé ID : 2
+nom : au
+Prénom : cassandre
+Date d'embauche : 2024-02-07
+Salaire : 150 €
+
+--- Liste des plats ---
+
+Plat ID : 3
+Nom du plat : 12
+Prix : 15.5 €
+Description : Un plat épicé inspiré des couchers de soleil tropicaux
+Calories : 800 kcal
+Catégorie : Entrée
+Taille de la portion : Moyenne
+Date d'ajout : 2023-11-15
 Disponibilité : Disponible
-Ingrédients : a
-Type de cuisine : lente
-Temps de préparation : 34 minutes
-Prix spécial : 12.0 €
-URL de l'image : EEZE
+Ingrédients : Tomates, épices, huile d'olive
+Type de cuisine : ssss
+Temps de préparation : 20 minutes
+Prix spécial : 10.0 €
+URL de l'image : XYZ123
+ID : 1
+Nom : 1
+Prix : 1.0€
+Description : 1
+Calories : 1 kcal
+Cat�gorie : AZ
+Taille de la portion : 1
+Date d'ajout : 2024-02-02
+Disponibilit� : Disponible
+Ingr�dients : AZE
+Type de cuisine : AZE
+Temps de pr�paration : 12 minutes
+Prix sp�cial : 12.0�
+URL de l'image : AZ
+------------------------------
+
+ID : 2
+Nom : az
+Prix : 12.0�
+Description : az
+Calories : 12 kcal
+Cat�gorie : AZE
+Taille de la portion : 12
+Date d'ajout : 2024-02-02
+Disponibilit� : Disponible
+Ingr�dients : AZ
+Type de cuisine : AZ
+Temps de pr�paration : 12 minutes
+Prix sp�cial : 12.0�
+URL de l'image : AZ
+------------------------------
+
